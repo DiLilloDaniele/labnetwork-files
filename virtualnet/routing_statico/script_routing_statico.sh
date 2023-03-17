@@ -1,5 +1,6 @@
 #usr/bin/bash
 
+for N in 1 2 3
 do
     ovs-vsctl add-br s$N
     ip netns add h$N
