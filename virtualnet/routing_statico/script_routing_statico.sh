@@ -19,8 +19,8 @@ done
 
 ip link add veth1 type veth peer name v-r12
 ip link set veth1 netns r1
-ip netns exec r12 ip link set veth1 up
-ip link set v-r1 up
+ip netns exec r1 ip link set veth1 up
+ip link set v-r12 up
 ovs-vsctl add-port s2 v-r12
 
 ip link add v-s2 type veth peer name v-s3
