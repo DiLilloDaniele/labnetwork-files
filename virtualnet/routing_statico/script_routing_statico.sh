@@ -31,6 +31,7 @@ ip netns exec r3 ip link set v-s3 up
 
 ip netns exec h1 ip addr add 192.168.1.1/24 dev veth0
 ip netns exec r1 ip addr add 192.168.1.253/24 dev veth0
+ip netns exec r1 ip addr add 192.168.2.252/24 dev veth1
 #ip netns exec r1 ip addr add 192.168.1.253/24 dev veth1
 
 ip netns exec h2 ip addr add 192.168.2.1/24 dev veth0
