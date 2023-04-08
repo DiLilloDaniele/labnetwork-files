@@ -1,0 +1,1 @@
+2switch6host-only_host1: mirroring solo dei messaggi che partono da host1 (che ha come mac address 00:00:00......:00:01)

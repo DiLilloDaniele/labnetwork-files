@@ -1,0 +1,4 @@
+sudo python 2switch_6host_mirror.py
+ryu-manager --ofp-tcp-listen-port 6633 NetProg_1_mirror.py 
+ryu-manager --ofp-tcp-listen-port 6653 NetProg_2_mirror.py
+sudo wireshark
